@@ -1,0 +1,16 @@
+name: pydatautils
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - jupyter
+  - ipykernel
+
+  # Optional but useful for notebooks
+  - matplotlib
+  - pip
+  - pip:
+      - notebook
